@@ -1,0 +1,17 @@
+{
+  "name": "live-table",
+  "version": "1.0.0",
+  "author": "ArturJS",
+  "description": "Live Table Websocket Example",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "ws": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
